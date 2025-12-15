@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(100deg, rgb(17, 245, 17), hsl(240, 75%, 51%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*NAVBAR STYLING*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background: linear-gradient(100deg, hsla(39, 100%, 50%, 0.726), hsla(300, 59%, 58%, 0.877));
+
+}
+.logo-image {
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.logo-container {
+  display: flex;
+}
+.main-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  display: block;
+}
+.sub-text {
+  font-size: 20px;
+  color: blue;
+}
+.toggle-menu {
+  font-size: 30px;
+  cursor: pointer;
+  color: blue;
+  display: none;
+}
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+}
+/*HERO STYLING*/
+.hero {
+  background-image: url('/gpcimage.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero-name h1{
+  font-weight: bold;
+  color: hsla(120, 83%, 50%, 0.897);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.hero-name p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/*ABOUT STYLING*/
+.about{
+  padding: 80px 40px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+.about-container h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-container p {
+  font-size: 18px;
+}
+.about-container h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/*FOOTER STYLING*/
+.footer {
+  padding: 40px 30px;
+  background: linear-gradient(100deg, hsla(39, 100%, 50%, 0.726), hsla(300, 59%, 58%, 0.877));
+  text-align: center;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  background: linear-gradient(100deg, hsla(39, 100%, 50%, 0.555), hsla(300, 59%, 58%, 0.774));
+}
+.box {
+display: flex;
+flex-wrap: wrap;
+max-width: 100%;
+padding: 20px;
+border: 2px solid #00aacc;
+border-radius: 10px;
+width: 40%;
+text-align: center;
+justify-content: center;
+ 
+}
+.quick-links a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 20px;
+}
+.author {
+  color: blue;
+  padding: 10px 30px;
+}
+.author-name{
+  color: silver;
+  font-size: 20px;
+}
+.footer-text h3 {
+  color: #00ffcc;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background: linear-gradient(100deg, hsla(39, 100%, 50%, 0.555), hsla(300, 59%, 58%, 0.774));
+  border-radius: 10px;
+   margin-top: 20px;
+
+}
+.contact a {
+  text-decoration: none;
+  color: green;
+}
+
+/*MOBILE RESPONSIVENESS*/
+@media(max-width: 768px){
+  .navbar{
+    justify-content: space-between;
+  }
+  .logo-container img {
+    width: 70px;
+
+  }
+  .main-text {
+    font-size: 20px;
+  }
+  .sub-text {
+    font-size: 12px;
+  }
+  .navbar-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: linear-gradient(100deg, orange, purple);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    padding: 20px 10px;
+
+    transform: translateX(100%);
+    transition: 0.3s ease-in;
+  }
+  .navbar-links.open{
+    transform: translateX(0);
+  }
+  .toggle-menu {
+    display: block;
+  }
+  .close-toggle{
+    position: fixed;
+    right: 10px;
+  }
+  .close-toggle button {
+    padding: 5px 10px;
+    background-color: black;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .footer-text h3 {
+  color: #00ffcc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+}
