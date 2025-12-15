@@ -25,7 +25,7 @@ const Navbar= () => {
                 <li><a href='#' target='_blank'>Home</a></li>
                 <li><a href='#' target='_blank'>About</a></li>
                 <li><a href='https://www.youtube.com/@GOSPELPENTECOSTALCHURCHKAN-q9o' target='_blank'>Youtube</a></li>
-                <li><a href='https://www.tiktok.com/@gospel.pentecostal/' target='_blank'>TikTok</a></li>
+                <li><a href='https://www.tiktok.com/@gospel.pentecosta/' target='_blank'>TikTok</a></li>
                 <li onClick={(() => alert('No link at the moment, try again later!!!'))}><a href='#' target='_blank'>Instagram</a></li>
                 <li><a href='https://www.facebook.com/groups/1303575817178331/?ref=share&mibextid=NSMWBT' target='_blank'>Facebook</a></li>
                 <li><a href='mailto:isaacmachinda47@gmail.com?Subject=Gospel%20Pentecostal%20Church' target='_blank'>Contact</a></li>

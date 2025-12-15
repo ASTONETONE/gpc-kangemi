@@ -11,7 +11,7 @@ const Footer = () => {
           <p>quick links:</p> 
             <div  className='quick-links'>
             <li className='box'><a href='https://www.youtube.com/@GOSPELPENTECOSTALCHURCHKAN-q9o' target='_blank'><img src='./youtube.png' width='70px' />Youtube</a></li>
-            <li className='box'><a href='https://www.tiktok.com/@gospel.pentecostal/' target='_blank'><img src='./tiktok.png' />TikTok</a></li>
+            <li className='box'><a href='https://www.tiktok.com/@gospel.pentecosta/' target='_blank'><img src='./tiktok.png' />TikTok</a></li>
             <li className='box' onClick={(() => alert('No link at the moment, try again later!!!'))}><a href='#' target='_blank'><img src='./instagram.png' />Instagram</a></li>
             <li className='box'><a href='https://www.facebook.com/groups/1303575817178331/?ref=share&mibextid=NSMWBT' target='_blank'><img src='./facebook.png' />Facebook</a></li>
             </div>
