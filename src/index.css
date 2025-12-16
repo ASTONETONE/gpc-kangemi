@@ -65,22 +65,22 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
 .hero-name h1{
   font-weight: bold;
   color: hsla(120, 83%, 50%, 0.897);
-  font-size: 50px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 .hero-name p {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /*ABOUT STYLING*/
 .about{
-  padding: 80px 40px;
+  padding: 50px 30px;
 }
 .about-container {
   display: flex;
@@ -208,6 +208,7 @@ justify-content: center;
   }
   .toggle-menu {
     display: block;
+    margin-left: 10px;
   }
   .close-toggle{
     position: fixed;
