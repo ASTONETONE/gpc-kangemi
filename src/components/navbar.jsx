@@ -28,7 +28,8 @@ const Navbar= () => {
                 <li><a href='https://www.tiktok.com/@gospel.pentecosta/' target='_blank'>TikTok</a></li>
                 <li onClick={(() => alert('No link at the moment, try again later!!!'))}><a href='#' target='_blank'>Instagram</a></li>
                 <li><a href='https://www.facebook.com/groups/1303575817178331/?ref=share&mibextid=NSMWBT' target='_blank'>Facebook</a></li>
-                <li><a href='mailto:isaacmachinda47@gmail.com?Subject=Gospel%20Pentecostal%20Church' target='_blank'>Contact</a></li>
+                <li><a href='mailto:isaacmachinda17@gmail.com?Subject=Gospel%20Pentecostal%20Church' target='_blank'>Contact</a></li>
+                <p className='author'><a href='https://wa.me/254723529944?text=Gospel%20Pentecostal%20Church' target='_blank'><img src='./whatsapp.png' width='20px' /><span>Whatsapp</span></a></p>
                 <li onClick={(() => alert('Good Bye 🙏🙏🙏'))}><a href='https://www.google.com' target='_blank'>Exit</a></li>
             </ol>
         

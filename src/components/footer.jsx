@@ -21,7 +21,8 @@ const Footer = () => {
             <div className='contact'>
               <p>contact us: </p>
         <p className='author'><img src='./phone.png' width='30px' /><span>+254723529944</span></p>
-        <p className='author'><a href='mailto:isaacmachinda415@gmail.com?Subject=Gospel%20Pentocostal%20Church' target='_blank'><img src='./gmail.png' width='20px' /><span>isaacmachinda415@gmail.com</span></a></p>
+        <p className='author'><a href='mailto:isaacmachinda17@gmail.com?Subject=Gospel%20Pentocostal%20Church' target='_blank'><img src='./gmail.png' width='20px' /><span>isaacmachinda17@gmail.com</span></a></p>
+        <p className='author'><a href='https://wa.me/254723529944?text=Gospel%20Pentecostal%20Church' target='_blank'><img src='./whatsapp.png' width='20px' /><span>Whatsapp</span></a></p>
         
          <p className='author'><img src="./location.png" width='30px' /><span>Kangemi Mau Mau</span></p>
         </div>
