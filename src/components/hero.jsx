@@ -3,6 +3,7 @@ import React from 'react';
 const Hero= () => {
   return (
     <div className='hero'>
+      <div className='contrast'>
         <div className='hero-container'>
         <div className='hero-name'>
             <h1>Welcome to Gospel PenteCostal Church Kangemi</h1>
@@ -12,6 +13,7 @@ const Hero= () => {
                 and a loving community where everyone belongs.</p>
         </div>
         </div>
+      </div>
 
     </div>
   );
