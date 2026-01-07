@@ -62,7 +62,7 @@ body {
 .contrast {
  background-color: rgba(121, 0, 121, 0.5);
  z-index: 2;
- position: relative;
+
  top: 0;
  left: 0;
  right: 0;

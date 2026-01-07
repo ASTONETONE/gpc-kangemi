@@ -30,7 +30,7 @@ const Footer = () => {
 
         <p className='author'>Powered by: <span className='author-name'>Astonetone</span></p>
         <div className='footer-text'>
-            <h3> &copy; 2025 Gospel Pentecostal Church Kangemi. All Rights Reserved</h3>
+            <h3> &copy; 2026 Gospel Pentecostal Church Kangemi. All Rights Reserved</h3>
         </div>
        
         
